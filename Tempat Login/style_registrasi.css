@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #007a8d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  height: 100vh;
+  margin: -20px 0 50px;
+  padding: 10px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  max-width: 100%;
+  min-height: 622px;
+  min-width: 370px;
+  margin-top: 105px;
+}
+
+.card-container {
+  display: flex;
+  background: url(img/registrasi.jpg);
+  background-size: cover;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdbebed0;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #ada1a15f;
+}
+
+.left-container {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+  line-height: 22px;
+}
+
+.left p {
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(11, 119, 138);
+}
+
+.right-container {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+
+input,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 12px 15px;
+  margin: 20px 0;
+  width: 50%;
+  font-size: 0.8rem;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #000000;
+  background-color: #00cf23;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-out;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: rgb(167, 77, 13);
+}
+
+.bg-senku {
+  width: 300px;
+  margin-top: -50px;
+  animation: mover 1s alternate infinite;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}

@@ -1,0 +1,207 @@
+body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                margin-top: -20px;
+                margin-left: 0px;
+            }
+
+            a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 10px;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-size: 24px;
+                font-weight: Time New Roman;
+            }
+            .pala{
+                height: 65px;
+                background: white;
+                position: absolute;
+                width: 100%;
+                color: #ffffff;
+            }
+
+            header {
+                background: rgb(14, 25, 218);
+                background: linear-gradient(90deg,
+                        rgba(14, 25, 218, 1) 13%,
+                        rgba(255, 0, 249, 1) 77%);
+                position: fixed;
+                width: 100%;
+                color: #ffffff;
+                line-height: 100%;
+                padding: 8px 0;
+                z-index: 100;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+
+            header h1 {
+                font-size: 25px;
+                margin-right: 100px;
+                margin-top: 50px;
+                margin-right: 30px;
+            }
+
+            header ul {
+                margin-left: 200px;
+                padding-top: 4px;
+                display: flex;
+                color: rgb(252, 252, 252);
+            }
+
+            header li {
+                float: left;
+                margin-left: 10px;
+                list-style: none;
+                border-radius: 5px;
+                color: rgb(255, 255, 255);
+                background-color: rgba(255, 0, 249, 1) 77%;
+                padding: 7px;
+                width: 114px;
+                display: flex;
+            }
+
+            .tekan.active {
+                background-color: rgba(8, 243, 216, 0.747);
+              }
+
+            .log-out {
+                background-color: red;
+                border-radius: 30px;
+            }
+
+            .log-out:hover {
+                background-color: #3c12c8a7;
+            }
+
+            .tekan:hover {
+                background-color: rgba(8, 243, 216, 0.747);
+            }
+
+            header img {
+                margin-left: 100px;
+                float: left;
+                width: 65px;
+            }
+
+            .tanda {
+                margin-left: 0px;
+                margin-right: 7px;
+                width: 18px;
+                filter: brightness(100);
+                filter: invert() !important;
+            }
+
+            .judul h3 {
+                color: #333;
+            }
+
+            .judul h5 {
+                color: #666;
+
+            }
+
+            form {
+                margin-top: 80px;
+            }
+
+            form table {
+                margin-top: 10px;
+            }
+
+            form table tr td {
+                padding: 5px;
+            }
+
+            form table tr td input[type="text"],
+            form table tr td textarea {
+                width: 300px;
+            }
+
+            form table tr td input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            form table tr td input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+
+            table {
+                margin-top: 20px;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            table th,
+            table td {
+                padding: 8px;
+                text-align: left;
+            }
+
+            table th {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            table tr:hover {
+                background-color: #ddd;
+            }
+
+            table a {
+                margin-right: 5px;
+                text-decoration: none;
+                color: #666;
+            }
+
+            table a:hover {
+                color: #000;
+            }
+
+            .menu {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .menu a {
+                display: inline-block;
+                padding: 6px 10px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .menu a:hover {
+                background-color: #45a049;
+            }
+
+            .menu a.delete {
+                background-color: #ff0000;
+            }
+
+            .menu a img {
+                vertical-align: middle;
+                margin-right: 5px;
+                width: 20px;
+            }

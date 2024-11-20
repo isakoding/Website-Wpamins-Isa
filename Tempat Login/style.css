@@ -1,0 +1,511 @@
+body {
+  background-color: #ffffff;
+  font-family: Helvetica;
+  margin: 0;
+}
+.btn-start{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white; /* Warna teks */
+  background: linear-gradient(to right, blue, purple); /* Gradasi warna */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px; /* Membuat sudut membulat */
+  cursor: pointer;
+  transition: 0.3s; /* Efek transisi saat hover */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+form {
+  background-color: #2188efb7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(95, 2, 255);
+  padding: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 50px 50px rgb(55, 160, 208);
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="phone"],
+input[type="password"], text {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.799);
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+}
+input[type="submit"] {
+  background-color: #00f94f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: Time New Roman;
+}
+
+header {
+  background: rgb(14, 25, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 25, 218, 1) 13%,
+    rgba(255, 0, 249, 1) 77%
+  );
+  position: fixed;
+  width: 100%;
+  color: #ffffff;
+  line-height: 100%;
+  padding: 8px 10px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin-right: 100px;
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+header ul {
+  margin-left: 200px;
+  padding-top: 4px;
+  display: flex;
+  color: rgb(252, 252, 252);
+}
+
+.btn-log-nav {
+  background: #00d443;
+  padding: 10px 50px;
+  border-radius: 50px;
+  color: white;
+  position: absolute;
+  
+}
+
+.crot {
+  right: 40px;
+  background: #3e8e41;
+}
+
+.btn-log-nav:hover {
+  background: #2f05fd;
+}
+
+li.active {
+  text-decoration: underline;
+}
+
+header li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tanda {
+  filter: invert() !important;
+}
+
+header li {
+  float: left;
+  margin-left: 15px;
+  list-style: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 249, 1) 77%;
+  padding: 10px;
+  width: 105px;
+  display: flex;
+}
+
+.log-out {
+  background-color: red;
+  border-radius: 30px;
+}
+
+.log-out:hover {
+  background-color: #3c12c8a7;
+}
+
+.tekan:hover {
+  background-color: rgba(8, 243, 216, 0.747);
+}
+.tekan.active {
+  background-color: rgba(8, 243, 216, 0.747);
+}
+header img {
+  margin-left: 100px;
+  float: left;
+  width: 65px;
+}
+
+main img {
+  width: 100%;
+  position: relative;
+}
+
+main .tengah {
+  color: rgb(1, 0, 0);
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+}
+
+main a {
+  text-decoration: none;
+  color: rgb(18, 2, 2);
+  background-color: #e0d2db;
+  padding: 10px 15px;
+  margin-top: -20px;
+  border: 1px solid black;
+}
+
+main a:hover {
+  background-color: #3032c0a7;
+}
+
+.senku {
+  margin-left: 20px;
+  float: left;
+  top: 185px;
+  width: 130px;
+  animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.konan {
+  margin-right: 20px;
+  float: right;
+  top: 185px;
+  width: 130px;
+  animation: mover 1s infinite alternate;
+}
+
+.icon {
+  position: absolute;
+  right: 50px;
+  bottom: 13px;
+}
+
+.instagram {
+  width: 20px;
+  margin-left: 30px;
+}
+
+.youtube {
+  margin-left: 30px;
+  width: 20px;
+}
+
+.whatsapp {
+  margin-left: 30px;
+  width: 20px;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  background: rgb(14, 25, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 25, 218, 1) 13%,
+    rgba(255, 0, 249, 1) 77%
+  );
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  color: #ffffff;
+  line-height: 100%;
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+}
+
+.card {
+  width: auto;
+  height: 483px;
+  box-shadow: 15px 15px 15px #00000077;
+  background-color: #09bced;
+  transition: all .3s ease;
+  border-radius: 8px;
+}
+
+.card:hover {
+  scale: 1.05;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+h3 {
+  color: #6b7b708a;
+}
+
+.tanda {
+  margin-left: 0px;
+  margin-right: 7px;
+  width: 18px;
+  filter: brightness(100);
+}
+
+.punten {
+  text-align: center;
+  background: #ce0ce4;
+  height: 45px;
+  width: 100%;
+  padding-top: 53px;
+  border-radius: 5px;
+}
+
+.ukur {
+  font-size: 280%;
+  margin-right: 300px;
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  color: #000000;
+}
+
+.takon {
+  width: 50%;
+  height: 400px;
+  margin-right: 333px;
+}
+
+.bahan {
+  margin-right: 100%;
+}
+
+.rata {
+  width: 30%;
+  margin-left: center;
+} 
+
+.bahan2 {
+  width:  15%;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.panah {
+  width: 120px;
+  margin-left: 100px;
+}
+
+.pnh {
+  display: flex;
+  justify-content: start;
+}
+
+.cairan {
+  width: 200px;
+  margin-left: 10%;
+}
+
+.bahan3 {
+  text-align: left;
+}
+.bahan4 {
+  text-align: left;
+}
+
+.bahan5 {
+  width: 30%;
+  margin-left: 10%;
+}
+
+/* Responsiveness - Mobile First Design */
+
+/* Default styles (untuk layar kecil) */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: #2188efb7;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 10px 20px rgba(55, 160, 208, 0.5);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Kurangi padding jika terlalu besar */
+}
+
+header img {
+  margin-left: 10px; /* Kurangi jarak logo dengan teks */
+  margin-right: 10px; /* Atur agar tidak terlalu jauh dengan teks */
+  width: 50px; /* Pastikan ukuran logo tetap proporsional */
+}
+
+header h1 {
+  margin: 0; /* Hapus margin tambahan */
+  font-size: 25px; /* Tetap gunakan ukuran teks yang sesuai */
+}
+
+
+.cards {
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+footer {
+  font-size: 14px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Atur agar logo dan teks diatur vertikal */
+    align-items: center;
+  }
+
+  header img {
+    margin: 0 0 10px 0; /* Sesuaikan jarak pada perangkat kecil */
+  }
+}
+
+/* Untuk ukuran layar lebih besar (>= 768px) */
+@media (min-width: 768px) {
+  form {
+    max-width: 600px;
+  }
+
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
+
+/* Media Query untuk Desktop (1024px) */
+@media (min-width: 1024px) {
+  header ul {
+    justify-content: flex-start;
+  }
+
+  .btn-log-nav {
+    position: relative;
+    right: 0;
+    margin-left: auto;
+  }
+
+  .cards {
+    gap: 40px;
+  }
+
+  form {
+    padding: 40px;
+  }
+
+  footer {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+/* Media Query untuk layar ekstra kecil (<= 480px) */
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header ul {
+    display: block;
+    text-align: center;
+  }
+
+  header li {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .btn-log-nav {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    right: 0;
+  }
+
+  form {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
